@@ -1,0 +1,40 @@
+.container{
+    position: sticky;
+    background-color: aqua;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid #333; /* Border for the entire table */
+}
+
+thead th {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #333; /* Border for header cells */
+}
+
+tbody td {
+    padding: 10px;
+    border: 1px solid #333; /* Border for body cells */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Alternating row colors */
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
