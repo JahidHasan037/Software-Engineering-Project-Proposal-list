@@ -36,10 +36,24 @@ tbody tr:nth-child(odd) {
 }
 
 a {
-    color: #007BFF;
+    color: rgb(19, 237, 128)
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+    color:white;
 }
+table tbody tr:nth-child(3n-2), 
+table tbody tr:nth-child(3n-1), 
+table tbody tr:nth-child(3n) {
+    background-color: #9581af; /* Light gray for group of 3 rows */
+}
+
+table tbody tr:nth-child(6n-2), 
+table tbody tr:nth-child(6n-1), 
+table tbody tr:nth-child(6n) {
+    background-color: gray; /* White for next group of 3 rows */
+}
+
+
