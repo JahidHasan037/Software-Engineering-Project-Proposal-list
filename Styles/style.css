@@ -1,5 +1,4 @@
 .container{
-    position: sticky;
     top: 0px;
     background-color: aqua;
     color: black;
@@ -9,7 +8,7 @@
 }
 .headsection{
     position: sticky;
-    top:253px
+    top:0px
 }
 table {
     width: 100%;
